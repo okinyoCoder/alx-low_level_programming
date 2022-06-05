@@ -1,7 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
- * main - assign a random number to the variable n each time it is executed and print whether the number stored in the variable n is positive or negative
+ * main - assign a random number to the variable n each time it is executed
+ * print whether the number stored in the variable n is positive or negative
  * Return: return zero
 */
 int main(void)
