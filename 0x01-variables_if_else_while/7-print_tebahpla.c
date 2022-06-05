@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 /**
- * main -  prints the lowercase alphabet in reverse, using putchar function
- * Returns: returns zero
+ * main - prints the lowercase alphabet in reverse, using putchar function
+ * Return: returns zero
  */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 		putchar(i);
 		i++;
 	}
-	
+
 	putchar('\n');
 	return (0);
 }
