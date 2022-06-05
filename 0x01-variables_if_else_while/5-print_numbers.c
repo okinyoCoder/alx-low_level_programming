@@ -6,11 +6,12 @@
  */
 int main(void)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i <= 9; i++)
+	while (i < 10)
 	{
 		printf("%d", i);
+		i++;
 	}
 
 	return (0);
