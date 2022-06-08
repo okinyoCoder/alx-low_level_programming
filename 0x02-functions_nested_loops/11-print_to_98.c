@@ -9,7 +9,7 @@ void print_to_98(int n)
 {
 	int val;
 
-	val = n;
+	val = ni;
 	if ((val > 98) || (val == 98))
 	{
 		while (val >= 98)
@@ -34,4 +34,4 @@ void print_to_98(int n)
 		}
 	}
 	putchar('\n');
-
+}
